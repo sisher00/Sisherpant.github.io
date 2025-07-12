@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sisher Pant - Web & App Developer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+
+    <header class="header">
+        <div class="navbar container">
+            <a href="#" class="logo">Sisher Pant</a>
+            <nav class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </nav>
+            <div class="dark-mode-toggle" id="darkModeToggle">
+                <i class="fas fa-moon"></i> Dark Mode
+            </div>
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <aside class="sidebar" id="sidebar">
+        <nav class="sidebar-nav-links">
+            <li><a href="#about" class="sidebar-link">About</a></li>
+            <li><a href="#skills" class="sidebar-link">Skills</a></li>
+            <li><a href="#projects" class="sidebar-link">Projects</a></li>
+            <li><a href="#services" class="sidebar-link">Services</a></li>
+            <li><a href="#reviews" class="sidebar-link">Reviews</a></li>
+            <li><a href="#contact" class="sidebar-link">Contact</a></li>
+            <li><a href="#newsletter" class="sidebar-link">Newsletter</a></li>
+        </nav>
+        <div class="sidebar-features">
+            <div class="sidebar-feature-item" id="sidebarDarkModeToggle">
+                <i class="fas fa-moon"></i> Dark Mode
+            </div>
+            <a href="#contact" class="sidebar-feature-item">
+                <i class="fas fa-envelope"></i> Get In Touch
+            </a>
+            <div class="sidebar-feature-item" onclick="alert('Coming Soon: Dynamic Theme Customizer!')">
+                <i class="fas fa-palette"></i> Customize Theme
+            </div>
+            <div class="sidebar-feature-item" onclick="alert('Coming Soon: Project Showcase Tour!')">
+                <i class="fas fa-eye"></i> Guided Tour
+            </div>
+        </div>
+    </aside>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1200">
+                <img src="https://via.placeholder.com/200/0077B6/FFFFFF?text=Sisher+P" alt="Sisher Pant Profile" class="hero-avatar">
+                <h1>Hello, I'm <span class="glowing-text">Sisher Pant</span></h1>
+                <p>Innovative Web & App Developer | Crafting Digital Experiences</p>
+                <a href="#projects" class="btn">Explore My Projects <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
+
+        <section id="about" class="parallax-bg" style="background-image: url('https://via.placeholder.com/1920x1080/2C3E50/FFFFFF?text=Creative+Development')" data-aos="fade-up" data-aos-delay="100">
+            <div class="parallax-content container">
+                <h2 class="section-heading">About Me</h2>
+                <div class="about-content">
+                    <div class="about-image" data-aos="fade-right" data-aos-delay="300">
+                        <img src="https://via.placeholder.com/400x400/3498DB/FFFFFF?text=Sisher+Pant" alt="Sisher Pant">
+                    </div>
+                    <div class="about-text" data-aos="fade-left" data-aos-delay="500">
+                        <p>
+                            Namaste! I'm Sisher Pant, a dedicated web and app developer based in Kathmandu, Nepal. My background in science provides a strong foundation for analytical thinking and problem-solving, which I apply to every project.
+                        </p>
+                        <p>
+                            I specialize in building **responsive, high-performance web applications** and **intuitive mobile experiences**. My focus is on creating clean, efficient, and user-centric solutions that not only look great but also deliver exceptional functionality.
+                        </p>
+                        <p>
+                            Constantly pushing the boundaries of what's possible, I integrate cutting-edge technologies, including AI-driven features, to develop innovative solutions. I'm passionate about transforming complex ideas into seamless digital realities. Let's collaborate to bring your next big vision to life.
+                        </p>
+                        <a href="#contact" class="btn">Let's Connect</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" data-aos="fade-up">
+            <div class="container">
+                <h2 class="section-heading">My Expertise</h2>
+                <div class="skills-grid">
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                        <p>Building robust and semantic web structures.</p>
+                    </div>
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS3 & SASS</h3>
+                        <p>Crafting responsive, visually stunning designs.</p>
+                    </div>
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript (ES6+)</h3>
+                        <p>Developing interactive and dynamic web applications.</p>
+                    </div>
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="400">
+                        <i class="fas fa-robot"></i>
+                        <h3>AI Integration</h3>
+                        <p>Implementing intelligent features using ChatGPT & other APIs.</p>
+                    </div>
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="500">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobile App Development</h3>
+                        <p>Creating efficient and user-friendly mobile applications.</p>
+                    </div>
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="600">
+                        <i class="fas fa-bezier-curve"></i>
+                        <h3>UI/UX Design Principles</h3>
+                        <p>Designing intuitive and engaging user experiences.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" data-aos="fade-up">
+            <div class="container">
+                <h2 class="section-heading">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-card-image">
+                            <img src="https://via.placeholder.com/600x400/1ABC9C/FFFFFF?text=Website+Redesign" alt="Project 1 Placeholder">
+                        </div>
+                        <div class="project-card-content">
+                            <h3>Corporate Website Redesign</h3>
+                            <p>Revamped a corporate website for enhanced user experience and modern aesthetics, focusing on responsiveness and performance.</p>
+                            <a href="https://example.com/project1" target="_blank" class="btn">View Project <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-card-image">
+                            <img src="https://via.placeholder.com/600x400/9B59B6/FFFFFF?text=E-commerce+Platform" alt="Project 2 Placeholder">
+                        </div>
+                        <div class="project-card-content">
+                            <h3>Bespoke E-commerce Platform</h3>
+                            <p>Developed a custom e-commerce solution with integrated payment gateways and user-friendly product management features.</p>
+                            <a href="https://example.com/project2" target="_blank" class="btn">View Project <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="project-card-image">
+                            <img src="https://via.placeholder.com/600x400/F1C40F/FFFFFF?text=Mobile+Utility+App" alt="Project 3 Placeholder">
+                        </div>
+                        <div class="project-card-content">
+                            <h3>Cross-Platform Utility App</h3>
+                            <p>Created a lightweight mobile utility application designed for seamless performance across various devices.</p>
+                            <a href="https://example.com/project3" target="_blank" class="btn">View Project <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="project-card-image">
+                            <img src="https://via.placeholder.com/600x400/E74C3C/FFFFFF?text=Interactive+Dashboard" alt="Project 4 Placeholder">
+                        </div>
+                        <div class="project-card-content">
+                            <h3>Interactive Data Dashboard</h3>
+                            <p>Designed and developed an interactive dashboard for data visualization, providing key insights with dynamic charts.</p>
+                            <a href="https://example.com/project4" target="_blank" class="btn">View Project <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="parallax-bg" style="background-image: url('https://via.placeholder.com/1920x1080/34495E/FFFFFF?text=Digital+Solutions')" data-aos="fade-up" data-aos-delay="100">
+            <div class="parallax-content container">
+                <h2 class="section-heading">My Services</h2>
+                <div class="services-grid">
+                    <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+                        <i class="fas fa-desktop"></i>
+                        <h3>Custom Web Development</h3>
+                        <p>Building bespoke websites from concept to deployment, ensuring optimal performance and user engagement.</p>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobile App Solutions</h3>
+                        <p>Developing native and cross-platform mobile applications that are intuitive and powerful.</p>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <h3>UI/UX Design & Prototyping</h3>
+                        <p>Crafting compelling user interfaces and experiences, including wireframing and interactive prototypes.</p>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in" data-aos-delay="400">
+                        <i class="fas fa-robot"></i>
+                        <h3>AI-Powered Features</h3>
+                        <p>Integrating artificial intelligence to enhance functionality and create smarter digital products.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" data-aos="fade-up">
+            <div class="container">
+                <h2 class="section-heading">Client Testimonials</h2>
+                <div class="testimonial-carousel">
+                    <div class="testimonial-wrapper" id="testimonialWrapper">
+                        <div class="testimonial-card">
+                            <img src="https://via.placeholder.com/80/0077B6/FFFFFF?text=Client+A" alt="Client A">
+                            <p>"Sisher's dedication to quality and his insightful approach made our project a huge success. He transformed our vision into a flawless digital product."</p>
+                            <h4>Mr. Bikas Shrestha</h4>
+                        </div>
+                        <div class="testimonial-card">
+                            <img src="https://via.placeholder.com/80/63B3ED/FFFFFF?text=Client+B" alt="Client B">
+                            <p>"सिसरको काम साँच्चै उत्कृष्ट छ! उहाँले हाम्रो अपेक्षाभन्दा राम्रो वेबसाइट बनाउनुभयो। समयमै काम सम्पन्न गर्नुभयो र सधैं सहयोग गर्न तत्पर रहनुभयो।"</p>
+                            <h4>Ms. Pooja Karki</h4>
+                        </div>
+                        <div class="testimonial-card">
+                            <img src="https://via.placeholder.com/80/4299E1/FFFFFF?text=Client+C" alt="Client C">
+                            <p>"The mobile application developed by Sisher Pant is incredibly intuitive and performs beautifully. His technical expertise is truly commendable."</p>
+                            <h4>Dr. Anish Dahal</h4>
+                        </div>
+                        <div class="testimonial-card">
+                            <img src="https://via.placeholder.com/80/2D3748/FFFFFF?text=Client+D" alt="Client D">
+                            <p>"सिसर पन्तले हाम्रो कम्पनीको लागि बनाएको वेबसाइट धेरै नै आकर्षक र प्रयोगकर्ता-मैत्री छ। उहाँको व्यावसायिकता र दक्षताबाट हामी अत्यन्तै सन्तुष्ट छौं।"</p>
+                            <h4>Mr. Suresh Rai</h4>
+                        </div>
+                        <div class="testimonial-card">
+                            <img src="https://via.placeholder.com/80/0077B6/FFFFFF?text=Client+E" alt="Client E">
+                            <p>"Outstanding work on our web portal! Sisher is a true professional who delivers high-quality results on time and within budget. Highly recommend his services."</p>
+                            <h4>Ms. Eliza Gurung</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-nav">
+                        <button id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                        <button id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="carousel-dots" id="carouselDots">
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" data-aos="fade-up">
+            <div class="container">
+                <h2 class="section-heading">Let's Talk</h2>
+                <div class="contact-content">
+                    <form class="contact-form" id="contactForm" action="https://formspree.io/f/xovwgory" method="POST">
+                        <div class="form-group">
+                            <label for="fullName">Full Name:</label>
+                            <input type="text" id="fullName" name="fullName" placeholder="Your Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number (Optional)">
+                        </div>
+                        <div class="form-group">
+                            <label for="location">Location:</label>
+                            <input type="text" id="location" name="location" placeholder="Your Location (e.g., Kathmandu, Nepal)">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" placeholder="Tell me about your project or inquiry..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                    <div class="contact-info">
+                        <h3>Connect Directly</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Kathmandu, Bagmati Province, Nepal</p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:pantsisher83@gmail.com" style="color: inherit; text-decoration: none;">pantsisher83@gmail.com</a></p>
+                        <p><i class="fas fa-phone-alt"></i> <a href="tel:+9779863481166" style="color: inherit; text-decoration: none;">+977 9863481166</a></p>
+                        <p><i class="fas fa-clock"></i> Available for projects and consultations.</p>
+                        <div class="social-links" style="margin-top: 0;">
+                            <a href="https://www.linkedin.com/in/sisher-pant-profile" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/sisher-pant" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://www.instagram.com/sisherpant/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.tiktok.com/@sisherpant?_t=ZS-8tOCcd0K14P&_r=1" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                            <a href="https://x.com/sisher15?t=i-7NFBXVc9Wneod_dafm1g&s=09" target="_blank" aria-label="X (Twitter)"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/share/15sVVVtTjN" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter" data-aos="fade-up">
+            <div class="container">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to my newsletter for the latest project updates, tech insights, and exclusive content!</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" id="newsletterEmail" placeholder="Enter your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>About Sisher Pant</h3>
+                    <p>A professional web and app developer from Kathmandu, Nepal, dedicated to crafting innovative and high-quality digital solutions.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Kathmandu, Nepal</p>
+                    <p><i class="fas fa-envelope"></i> pantsisher83@gmail.com</p>
+                    <p><i class="fas fa-phone-alt"></i> +977 9863481166</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Connect With Me</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/sisher-pant-profile" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/sisher-pant" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/sisherpant/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@sisherpant?_t=ZS-8tOCcd0K14P&_r=1" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://x.com/sisher15?t=i-7NFBXVc9Wneod_dafm1g&s=09" target="_blank" aria-label="X (Twitter)"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/share/15sVVVtTjN" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; <span id="currentYear"></span> Sisher Pant. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollToTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    <a href="#contact" id="floatingContactBtn">
+        <i class="fas fa-envelope"></i> Contact Me
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script> </body>
+</html>
